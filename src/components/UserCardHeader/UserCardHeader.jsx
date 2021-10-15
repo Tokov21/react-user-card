@@ -10,7 +10,7 @@ function UserCardHeader(props) {
   return (
     <div className="card-header">
       <UserAvatar user={props.user} />
-      <p className="user-name">{firstName + " " + lastName}</p>
+      <p className="user-name">{firstName} {lastName}</p>
     </div>
   );
 }
