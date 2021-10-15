@@ -5,9 +5,7 @@ import "./UserCardFooter.css";
 
 function UserCardFooter(props) {
   const {
-    UserCardProps: {
-      user: { message },
-    },
+    user: { message },
   } = props;
 
   return (

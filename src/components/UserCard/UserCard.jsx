@@ -6,8 +6,8 @@ import "./UserCard.css";
 function UserCard(props) {
   return (
     <div className="card">
-      <UserCardHeader UserCardProps={props}/>
-      <UserCardFooter UserCardProps={props}/>
+      <UserCardHeader user={props.user} />
+      <UserCardFooter user={props.user} />
     </div>
   );
 }

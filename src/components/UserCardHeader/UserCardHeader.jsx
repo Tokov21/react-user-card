@@ -4,20 +4,16 @@ import "./UserCardHeader.css";
 
 function UserCardHeader(props) {
   const {
-    UserCardProps: {
-      user: { firstName },
-    },
+    user: { firstName },
   } = props;
 
   const {
-    UserCardProps: {
-      user: { lastName },
-    },
+    user: { lastName },
   } = props;
 
   return (
     <div className="card-header">
-      <UserAvatar UserCardHeaderProps={props} />
+      <UserAvatar user={props.user} />
       <p className="user-name">{firstName + " " + lastName}</p>
     </div>
   );
