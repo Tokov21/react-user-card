@@ -3,11 +3,11 @@ import UserCardFooter from "../UserCardFooter/UserCardFooter";
 
 import "./UserCard.css";
 
-function UserCard() {
+function UserCard(props) {
   return (
     <div className="card">
-      <UserCardHeader />
-      <UserCardFooter />
+      <UserCardHeader UserCardProps={props}/>
+      <UserCardFooter UserCardProps={props}/>
     </div>
   );
 }

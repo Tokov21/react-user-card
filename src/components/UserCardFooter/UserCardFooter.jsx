@@ -3,13 +3,16 @@ import Buttons from "../Buttons/Buttons";
 
 import "./UserCardFooter.css";
 
-function UserCardFooter() {
+function UserCardFooter(props) {
+  const {
+    UserCardProps: {
+      user: { message },
+    },
+  } = props;
+
   return (
     <div className="card-footer">
-      <p className="lorem">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quibusdam
-        minus labore facere dolor odit optio doloremque debitis iusto tempora.
-      </p>
+      <p className="lorem">{message}</p>
       <div className="interactive">
         <Buttons />
         <Socials />
