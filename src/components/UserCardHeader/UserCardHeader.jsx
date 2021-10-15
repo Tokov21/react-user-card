@@ -4,11 +4,7 @@ import "./UserCardHeader.css";
 
 function UserCardHeader(props) {
   const {
-    user: { firstName },
-  } = props;
-
-  const {
-    user: { lastName },
+    user: { firstName, lastName },
   } = props;
 
   return (
