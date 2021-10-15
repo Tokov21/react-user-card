@@ -1,0 +1,14 @@
+.card-header {
+  display: flex;
+  align-items: center;
+
+  background-color: #fff;
+}
+
+.user-name {
+  margin-left: 3%;
+
+  font-size: 2rem;
+  font-family: sans-serif, Arial;
+  font-weight: 700;
+}

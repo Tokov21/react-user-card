@@ -1,3 +1,14 @@
-li {
-  /* text-decoration: none; */
+.card-footer {
+  padding: 10px 20px;
+
+  background-color: #154360;
+  color: #fff;
+
+  filter: drop-shadow(3px 10px 10px black);
+}
+
+.interactive {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
