@@ -1,5 +1,5 @@
-import Socials from "../Socials/Socials";
-import Buttons from "../Buttons/Buttons";
+import Socials from "./Socials";
+import Buttons from "./Buttons";
 
 import "./UserCardFooter.css";
 

@@ -1,5 +1,5 @@
-import UserCardHeader from "../UserCardHeader/UserCardHeader";
-import UserCardFooter from "../UserCardFooter/UserCardFooter";
+import UserCardHeader from "../UserCardHeader";
+import UserCardFooter from "../UserCardFooter";
 
 import "./UserCard.css";
 

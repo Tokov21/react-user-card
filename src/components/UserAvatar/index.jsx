@@ -1,5 +1,3 @@
-// import avatar from "./avatar.png";
-
 import "./UserAvatar.css";
 
 function UserAvatar(props) {
