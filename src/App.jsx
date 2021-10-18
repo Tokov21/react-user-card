@@ -8,6 +8,12 @@ const user = {
   avatarPath: "./images/avatar.png",
   message:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptatem dolore error dicta, numquam neque.",
+  socials: [
+    { name: "facebook", link: "https://facebook.com" },
+    { name: "twitter", link: "https://twitter.com" },
+    { name: "googlePlus", link: "https://plus.google.com/" },
+    { name: "linkedin", link: "https://linkedin.com" },
+  ],
 };
 
 function App() {
