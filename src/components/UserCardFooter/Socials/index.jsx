@@ -7,8 +7,6 @@ function Socials(props) {
     return <Social social={soc} />;
   });
 
-  console.log(arrayJSX);
-
   return (
     <div className="socials">
       <ul className="socials-list">{arrayJSX}</ul>
