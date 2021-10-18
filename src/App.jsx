@@ -9,10 +9,26 @@ const user = {
   message:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptatem dolore error dicta, numquam neque.",
   socials: [
-    { name: "facebook", link: "https://facebook.com" },
-    { name: "twitter", link: "https://twitter.com" },
-    { name: "googlePlus", link: "https://plus.google.com/" },
-    { name: "linkedin", link: "https://linkedin.com" },
+    {
+      name: "facebook",
+      link: "https://facebook.com",
+      pathToLogo: "./images/facebook.svg",
+    },
+    {
+      name: "twitter",
+      link: "https://twitter.com",
+      pathToLogo: "./images/twitter.svg",
+    },
+    {
+      name: "googlePlus",
+      link: "https://plus.google.com/",
+      pathToLogo: "./images/google-plus.svg",
+    },
+    {
+      name: "linkedin",
+      link: "https://linkedin.com",
+      pathToLogo: "./images/linkedin.svg",
+    },
   ],
 };
 

@@ -13,7 +13,7 @@ function UserCardFooter(props) {
       <p className="lorem">{message}</p>
       <div className="interactive">
         <Buttons />
-        <Socials />
+        <Socials user={props.user}/>
       </div>
     </div>
   );
