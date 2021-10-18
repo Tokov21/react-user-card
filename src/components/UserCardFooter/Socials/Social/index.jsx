@@ -5,7 +5,7 @@ function Social(props) {
 
   return (
     <li>
-      <a href={link} target="_blank">
+      <a href={link} target="_blank" rel="noreferrer noopener">
         <img src={pathToLogo} alt={name} />
       </a>
     </li>
